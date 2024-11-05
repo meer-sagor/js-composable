@@ -1,9 +1,9 @@
 import {logGenerateFormData} from './logGenerateFormData'
-import { useGenerateFormData } from "./useGenerateFormData";
+import { generateFormData } from "./generateFormData";
 
 
 
 export {
     logGenerateFormData,
-    useGenerateFormData
+    generateFormData
 }

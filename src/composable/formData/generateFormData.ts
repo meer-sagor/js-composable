@@ -5,7 +5,7 @@ type GenerateFormData = {
   fileKey?: string;
 };
 
-export const useGenerateFormData = ({
+export const generateFormData = ({
   objectData,
   fileKey,
 }: GenerateFormData): FormData => {

@@ -1,3 +1,3 @@
-import { logGenerateFormData, useGenerateFormData } from './formData';
+import { logGenerateFormData, generateFormData } from './formData';
 
-export { logGenerateFormData, useGenerateFormData };
+export { logGenerateFormData, generateFormData };

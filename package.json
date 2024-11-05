@@ -2,7 +2,7 @@
   "author": "Meer Sagor",
   "name": "@meersagor/js-composable",
   "private": false,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "",
   "scripts": {
@@ -11,16 +11,16 @@
     "preview": "vite preview"
   },
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": "./dist/js-composable.umd.cjs",
+  "main": "./dist/js-composable.cjs",
   "module": "./dist/js-composable.js",
   "exports": {
     ".": {
       "import": "./dist/js-composable.js",
-      "require": "./dist/js-composable.umd.cjs"
+      "require": "./dist/js-composable.cjs"
     }
   },
   "types": "./dist/index.d.ts",
