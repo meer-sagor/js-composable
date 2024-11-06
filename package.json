@@ -19,6 +19,7 @@
   "module": "./dist/js-composable.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/js-composable.js",
       "require": "./dist/js-composable.cjs"
     }
