@@ -47,6 +47,22 @@ const  result  =  generateFormData({ objectData: obj2, fileKey: 'attachment' });
 //  Log  the  generated  FormData
 logGenerateFormData(result);
 ```
+A TypeScript utility for dynamically adding, updating, and ensuring the loading of custom fonts in a web application. This utility helps you define font-face rules for custom fonts, allowing you to update their sources and ensure the fonts are fully loaded in the browser.
+
+#### To use this `loadCustomFontFace` utility, simply call the `loadCustomFontFace` function with the necessary parameters.
+
+```typescript
+import  {loadCustomFontFace}  from '@meersagor/js-composable';
+
+await loadCustomFontFace({
+  fontFamily: 'CustomFont',
+  srcUrl: 'https://example.com/fonts/CustomFont.woff',
+  fontStyle: 'normal',
+  fontWeight: '400',
+  format: 'woff2',
+  fontDisplay: 'swap',
+});
+```
 
 ## Methods
 
@@ -60,8 +76,20 @@ This  method  generates  FormData  from  the  provided  object.
 - `FormData`:  The  generated  `FormData`  object.
 - `logGenerateFormData` This  method  logs  the  generated  `FormData`  to  the  console.
 
+
+`loadCustomFontFace`
 #### Parameters
-- `formData`:  The  `FormData`  object  to  be  logged.
+
+  | Parameters  | Type   | Description                                           | Default    |
+  |-------------|--------|-------------------------------------------------------|------------|
+  | fontFamily  | string | The name of the font family.                          | —          |
+  | srcUrl      | string | The URL of the font file.                             | —          |
+  | format      | string | The format of the font (e.g., `'woff'`, `'woff2'`).   | `'woff'`   |
+  | fontWeight  | string | The weight of the font (e.g., `'normal'`, `'bold'`).  | `'normal'` |
+  | fontStyle   | string | The style of the font (e.g., `'normal'`, `'italic'`). | `'normal'` |
+  | fontDisplay | string | Defines how a font face is displayed.                 | `'swap'`   |
+
+  
 
 ## License
 This  package  is  open-source  and  available  under  the  [MIT  License.](https://github.com/meer-sagor/js-composable/blob/master/LICENSE)

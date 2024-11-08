@@ -1,4 +1,4 @@
-import { isObject } from "../../utils/isObject";
+import { isObject } from "../../utils";
 
 type GenerateFormData = {
   objectData: Record<string, any>;

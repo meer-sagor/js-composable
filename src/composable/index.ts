@@ -1,3 +1,4 @@
 import { logGenerateFormData, generateFormData } from './formData';
+import {loadCustomFontFace} from './customFontFace'
 
-export { logGenerateFormData, generateFormData };
+export { logGenerateFormData, generateFormData, loadCustomFontFace };
