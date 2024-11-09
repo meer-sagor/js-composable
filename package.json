@@ -2,7 +2,7 @@
   "author": "Meer Sagor",
   "name": "@meersagor/js-composable",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "JS-Composable is a lightweight utility library designed to provide practical helper methods that simplify real-world\nuse cases.",
   "scripts": {
